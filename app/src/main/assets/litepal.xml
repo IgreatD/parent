@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="sjkj_chat" />
+
+    <version value="6" />
+
+    <list>
+        <mapping class="com.sjkj.parent.data.server.ChatListBean" />
+    </list>
+
+</litepal>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/action_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/qmui_s_list_item_bg_with_border_none"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/hw_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/qmui_config_color_75_pure_black"
+            android:textSize="@dimen/list_item_textSize_title" />
+
+        <TextView
+            android:id="@+id/hw_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/qmui_config_color_50_pure_black"
+            android:textSize="@dimen/list_item_textSize_detail" />
+
+        <TextView
+            android:id="@+id/hw_time_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/qmui_config_color_50_pure_black"
+            android:textSize="@dimen/list_item_textSize_detail" />
+
+        <TextView
+            android:id="@+id/hw_time_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/qmui_config_color_50_pure_black"
+            android:textSize="@dimen/list_item_textSize_detail" />
+
+        <LinearLayout
+            android:id="@+id/hw_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hw_avg_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/qmui_config_color_50_pure_black"
+                    android:textSize="@dimen/list_item_textSize_detail" />
+
+                <TextView
+                    android:id="@+id/hw_avg_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/qmui_config_color_50_pure_black"
+                    android:textSize="@dimen/list_item_textSize_detail" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/hw_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/app_color_blue"
+                android:textSize="@dimen/list_item_textSize_detail" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

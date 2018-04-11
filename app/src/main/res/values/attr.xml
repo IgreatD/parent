@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="app_primary_color" format="color" />
+    <attr name="app_content_bg_color" format="color" />
+
+    <string-array name="main_tab">
+        <item>我的课堂</item>
+        <item>作业本</item>
+        <item>自定义作业</item>
+        <item>学单词</item>
+        <item>即时消息</item>
+        <item>推荐作业</item>
+        <item>收藏本</item>
+        <item>课外素材</item>
+        <item>成绩报告</item>
+        <item>错题本</item>
+        <item>错题追踪</item>
+        <item>英语词典</item>
+    </string-array>
+    
+    <string-array name="add_homework">
+        <item>普通作业</item>
+        <item>错题作业</item>
+    </string-array>
+
+    <string-array name="classroom_tab">
+        <item>预习素材</item>
+        <item>预习检测</item>
+        <item>课堂素材</item>
+        <item>课题检测</item>
+    </string-array>
+
+    <string-array name="classroomcheck_tab">
+        <item>待做</item>
+        <item>已做</item>
+    </string-array>
+
+    <string-array name="material_tab">
+        <item>全部</item>
+        <item>文档</item>
+        <item>课件</item>
+        <item>视频</item>
+    </string-array>
+    
+    <string-array name="homework_tab">
+        <item>全部</item>
+        <item>老师作业</item>
+        <item>家长作业</item>
+    </string-array>
+
+    <string-array name="homework_check_type">
+        <item>家长批改</item>
+        <item>自主校对</item>
+    </string-array>
+    <string-array name="homework_revise_type">
+        <item>家长订正</item>
+        <item>自主订正</item>
+    </string-array>
+
+    <string-array name="im_tab">
+        <item>最近聊天</item>
+        <item>老师</item>
+    </string-array>
+
+</resources>

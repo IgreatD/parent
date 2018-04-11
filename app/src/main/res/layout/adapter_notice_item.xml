@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/qmui_s_list_item_bg_with_border_none"
+    android:orientation="vertical"
+    android:padding="16dp">
+    
+    <TextView
+        android:id="@+id/mine_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/qmui_icon_tip_new"
+        android:drawablePadding="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/qmui_config_color_75_pure_black"
+        android:textSize="@dimen/list_item_textSize_title" />
+
+    <TextView
+        android:id="@+id/mine_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/app_color_blue"
+        android:textSize="@dimen/list_item_textSize_detail" />
+
+    <TextView
+        android:id="@+id/mine_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/app_color_blue"
+        android:textSize="@dimen/list_item_textSize_detail" />
+
+
+</LinearLayout>

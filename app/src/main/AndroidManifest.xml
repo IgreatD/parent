@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sjkj.parent">
+
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 检测网络连接状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 存储-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <!-- 录音-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name="com.sjkj.parent.ParentApp"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name="com.sjkj.parent.ui.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sjkj.parent.ui.activity.MainActivity"
+            android:theme="@style/MainTheme" />
+        <activity android:name="com.sjkj.parent.ui.activity.LoginActivity" />
+        <activity
+            android:name="com.sjkj.parent.ui.activity.ChatActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name="com.sjkj.parent.ui.activity.ImageActivity" />
+        <activity android:name="com.sjkj.parent.utils.floder.ui.FilePickerActivity" />
+
+        <service android:name="com.sjkj.parent.xmpp.service.XmppService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.sjkj.parent.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepath" />
+        </provider>
+    </application>
+
+</manifest>

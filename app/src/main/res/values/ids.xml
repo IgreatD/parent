@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home" type="id" />
+    <item name="login" type="id" />
+    <item name="main_container" type="id" />
+
+    <item name="empty_button" type="id" />
+
+    <item name="topbar_right_about_button" type="id" />
+    <item name="topbar_right_change_button" type="id" />
+    <item name="topbar_right_picture" type="id" />
+    <item name="main" type="id" />
+    <item name="chat" type="id" />
+    <item name="hand" type="id" />
+</resources>

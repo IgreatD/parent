@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/name1_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tv_border"
+        android:gravity="center"
+        android:textColor="@color/qmui_config_color_75_pure_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/name2_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tv_border"
+        android:gravity="center"
+        android:textColor="@color/qmui_config_color_75_pure_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/name3_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tv_border"
+        android:gravity="center"
+        android:textColor="@color/qmui_config_color_75_pure_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/name4_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tv_border"
+        android:gravity="center"
+        android:textColor="@color/qmui_config_color_75_pure_black"
+        android:textSize="14sp" />
+
+</LinearLayout>
